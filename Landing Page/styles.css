@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+section{
+    min-height:100vh ;
+    background-image:url("ddfdf-min.jpg");
+    background-repeat: no-repeat;
+    background-size: 90ch;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    align-items: center;
+}
+nav{
+    height: 1px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 40px;
+    font-size: inline;
+    color: rgb(9, 27, 67);
+    text-decoration-style: wavy;
+    box-align: right;
+}
+.icon {
+    font-family: 'Akronim';
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 5px;
+    color:rgb(9, 27, 67);
+}
+nav ul{
+    float: right;
+    line-height: 90px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(102, 118, 242);
+    transition: 0.5s ease;
+}
+nav ul li.active{
+    background-color: rgba(43, 208, 226, 0.366);
+}
+.article{
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 0px;
+    text-align: right;
+}
+.article h1{
+    font-size: 36px;
+    color: rgb(20, 31, 118);
+    letter-spacing: 1.25px;
+    font-weight: 900;
+    text-align:top;
+    margin-right: 20px;
+}
+  .box p {
+    width: 490px;
+    margin-left: 62%;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+
+.article a {
+    border: 0px solid black;
+    padding: 20px;
+    margin-right: 150px;
+    border-radius: 20px;
+    background-color: rgb(9, 27, 67);
+    color: beige;
+}
+
+.article a:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 0.4 ease;
+}
+
+.article p2{
+  font-size: 16px;
+  color:black;
+  text-align: bottom;
+  position: absolute;
+  bottom: 40px;
+  right:20px;
+  margin: 10px;
+}
